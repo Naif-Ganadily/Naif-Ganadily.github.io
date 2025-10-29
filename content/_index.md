@@ -34,11 +34,16 @@ sections:
       title: '🧬 My Research'
       subtitle: ''
       text: |-
-        I am a Ph.D. student in Biomedical Informatics and Data Science at Arizona State University, working under Prof. Irbaz Riaz (ASU/Mayo Clinic) and Prof. Li Liu. My research focuses on developing AI systems for oncology, particularly in applying large language models and generative AI to improve clinical decision-making and patient outcomes.
+        I am a Ph.D. student in **Biomedical Informatics and Data Science** at Arizona State University, working under **Prof. Irbaz Riaz** (ASU/Mayo Clinic) and **Prof. Li Liu**. My research focuses on developing **AI systems for oncology**, particularly in applying large language models and generative AI to improve clinical decision-making and patient outcomes.
 
-        Currently, I'm developing LLM-based systems for hematology oncology at Mayo Clinic and creating pipelines to identify major adverse cardiac events (MACE) in clinical notes. I'm passionate about bridging the gap between cutting-edge AI technologies and critical healthcare applications through explainable and privacy-preserving machine learning.
+        Currently at **Mayo Clinic**, I'm developing:
+        - **LLM + rule-based systems** for hematology oncology clinical decision support
+        - **Automated pipelines** to identify major adverse cardiac events (MACE) in clinical notes
+        - **Explainable AI** approaches for healthcare applications
 
-        Please reach out to collaborate! 🚀
+        I'm passionate about bridging the gap between cutting-edge AI technologies and critical healthcare applications through explainable and privacy-preserving machine learning. I also write about AI research on [Medium](https://medium.com/@ganadilynaif).
+
+        **Please reach out to collaborate!** 🚀
     design:
       columns: '1'
   - block: collection
@@ -74,7 +79,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: Blog & Writing
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...

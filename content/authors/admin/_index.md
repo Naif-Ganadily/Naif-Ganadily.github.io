@@ -42,6 +42,9 @@ profiles:
     url: https://github.com/Naif-Ganadily
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/naif-ganadily/
+  - icon: brands/medium
+    url: https://medium.com/@ganadilynaif
+    label: Medium
   - icon: hero/globe-alt
     url: https://www.naifganadily.com
     label: Website
@@ -207,8 +210,21 @@ awards:
       Certified in AI and machine learning fundamentals on Azure platform.
 ---
 
-Naif A. Ganadily is a Ph.D. student in Biomedical Informatics and Data Science at Arizona State University, working under the supervision of Prof. Irbaz Riaz (ASU/Mayo Clinic) and Prof. Li Liu. His research focuses on developing AI systems for oncology, with particular emphasis on large language models, generative AI, and explainable machine learning for healthcare applications.
+## About Me
 
-Currently serving as an AI Research Intern at Mayo Clinic, Naif is developing cutting-edge LLM and rule-based systems for hematology oncology and creating pipelines to identify adverse cardiac events in clinical notes. His work bridges the gap between advanced AI technologies and critical healthcare applications, with the goal of improving patient outcomes through intelligent automation.
+I am **Naif A. Ganadily**, a Ph.D. student in the **Biomedical Informatics and Data Science** program at Arizona State University (ASU). I am working as a graduate research associate and AI Research Intern at **Mayo Clinic** under the supervision of **Dr. Irbaz Riaz** (ASU/Mayo Clinic) and **Prof. Li Liu**.
 
-Naif holds an M.S. in Electrical Engineering (Machine Learning & Data Science) from the University of Washington, where he collaborated with Prof. Stan Birchfield at NVIDIA on computer vision research, and a B.S. in Electrical Engineering from the University of Business and Technology in Saudi Arabia. He is fluent in English and Arabic, and holds dual citizenship in the USA and Saudi Arabia.
+Before starting my PhD at ASU, I completed my Master's degree in Electrical Engineering (Machine Learning & Data Science) at the **University of Washington** in 2024, where I worked with **Prof. Stan Birchfield** and collaborated with **NVIDIA** on computer vision and synthetic data generation research. Prior to that, I completed my undergraduate degree in Electrical Engineering from the **University of Business and Technology** in Jeddah, Saudi Arabia in 2021.
+
+I am interested in **Explainable AI**, **Large Language Models (LLMs)**, **Generative AI** applications in healthcare, **AI-driven clinical decision support systems**, **Privacy-Preserving Machine Learning**, and **Computer Vision**. My current research focuses on developing LLM and rule-based systems for hematology oncology and creating pipelines to automatically identify Major Adverse Cardiac Events (MACE) in clinical notes.
+
+### What I've Been Up To
+
+At Mayo Clinic, I'm working on:
+- Developing **LLM + rule-based systems** for Hematology Oncology clinical decision support
+- Creating pipelines to identify **MACE events** in oncology patient notes (RCC notes)
+- Transitioning to a Graduate Research Associate role under Prof. Riaz
+
+I also write about AI and machine learning on **Medium**, where I've published articles explaining complex AI concepts like Graph of Thoughts prompting for large language models.
+
+I am fluent in **English** and **Arabic**, and hold dual citizenship in the USA and Saudi Arabia.
