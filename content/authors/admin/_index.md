@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: Naif A. Ganadily
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Naif
+last_name: Ganadily
 
 # Pronouns (optional)
 pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 🧬
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,150 +23,192 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Ph.D. Student in Biomedical Informatics & Data Science
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Arizona State University
+    url: https://www.asu.edu/
+  - name: Mayo Clinic
+    url: https://www.mayoclinic.org/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:nganadil@asu.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/Naif-Ganadily
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/naif-ganadily/
+  - icon: hero/globe-alt
+    url: https://www.naifganadily.com
+    label: Website
 
 interests:
-  - Large Language Models
+  - AI in Oncology
+  - Generative AI, LLMs, LVMs
+  - Explainable AI and Causal ML
   - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
+  - area: Ph.D. in Biomedical Informatics and Data Science
+    institution: Arizona State University
     icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+    date_start: 2024-08-01
+    date_end: 2028-08-01
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
+      Advisor: Prof. Irbaz Riaz (ASU/Mayo Clinic)
+      Co-Advisor: Prof. Li Liu
+      GPA: 4.00
+      
+      Focus Areas: AI in Oncology, Generative AI, Large Language Models
+  - area: M.S. in Electrical Engineering (Machine Learning & Data Science)
+    institution: University of Washington
     icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+    date_start: 2022-09-01
+    date_end: 2024-03-31
     summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
+      GPA: 3.79
+      
+      Mentors: Prof. Stan Birchfield, Prof. Tamara Bonaci
+      
+      Specialized in machine learning, computer vision, and privacy-preserving ML for healthcare.
+  - area: B.S. in Electrical Engineering
+    institution: University of Business and Technology
     icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+    date_start: 2016-09-01
+    date_end: 2021-08-31
     summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      GPA: 3.43
+      Minor in Electronics & Communications
+      
+      Advisor: Prof. Mohammed Al-Qarni
+      Location: Jeddah, Saudi Arabia
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    icon: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
   - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+    company_name: Mayo Clinic
+    company_url: 'https://www.mayoclinic.org/'
     icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2025-07-01
+    date_end: ''
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Leading transition to a Graduate Research Associate role under Prof. Riaz at ASU. Developing LLM + rule-based systems for Hematology Oncology. Creating LLM pipeline to identify MACE events in oncology patient notes (RCC notes).
+  - position: AI Research Affiliate
+    company_name: Mayo Clinic
+    company_url: 'https://www.mayoclinic.org/'
+    icon: ''
+    date_start: 2025-04-01
+    date_end: 2025-07-01
+    summary: |
+      IRB onboarding, Mayo Clinic training for the transition and prototype pipeline for the BEACON LAB.
+  - position: Graduate Research Associate - ML in Multi-omics
+    company_name: Arizona State University
+    company_url: 'https://www.asu.edu/'
+    icon: ''
+    date_start: 2024-12-01
+    date_end: 2025-04-01
+    summary: |
+      Conducted advanced research at the Biodesign Center for Fundamental and Applied Microbiomics under Prof. Qiyun Zhu. Directed the Phycollar Research Project, focusing on MLOps, automation testing, and agile ML methodologies. Implemented automated pipelines for model development and explainable AI (SHAP, LIME) in microbiomics.
+  - position: Graduate Research Associate - ML in Microbiomics
+    company_name: Arizona State University, Biodesign Institute
+    company_url: 'https://biodesign.asu.edu/'
+    icon: ''
+    date_start: 2024-08-01
+    date_end: 2024-12-01
+    summary: |
+      Guided Computer Science students on leveraging phylogenetic trees for microbiome data analysis. Developed MLOps pipelines using AutoKeras and SHAP/LIME. Optimized phylogenetic methods to improve model interpretability and performance.
+  - position: AI Research Collaborator
+    company_name: NVIDIA (Stan Birchfield's Research Group)
+    company_url: 'https://www.nvidia.com/'
+    icon: ''
+    date_start: 2023-06-01
+    date_end: 2024-03-31
+    summary: |
+      Optimized the LoFTR model, achieving a 12% boost in accuracy through synthetic datasets. Employed Blender to import, texture, and render 3D objects, enhancing model robustness by 10%. Analyzed vertex information from 150+ renders.
+  - position: AI Consultant - Topic Modeling
+    company_name: Rosenblatt.AI (Branch.vote)
+    company_url: ''
+    icon: ''
+    date_start: 2024-03-01
+    date_end: 2024-08-01
+    summary: |
+      Developed Large Language Models (LLMs) for unbiased topic modeling in political candidate analysis. Employed Python, BERTopic, LLaMA 3, AWS SageMaker, and Nvidia RAPIDS for scalable real-time insights.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming & ML Frameworks
     items:
-      - name: Python & PyTorch
+      - name: Python (PyTorch, TensorFlow, scikit-learn)
         description: ''
         percent: 95
         icon: code-bracket
-      - name: Machine Learning
+      - name: Machine Learning & Deep Learning
         description: ''
-        percent: 100
+        percent: 95
         icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
+      - name: Cloud Computing (AWS, Azure, GCP)
         description: ''
         percent: 85
         icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
+      - name: LLMs & Generative AI
         description: ''
         percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
+        icon: sparkles
+  - name: DevOps & Tools
+    items:
+      - name: Git, Docker, Kubernetes
         description: ''
-        percent: 70
-        icon: book-open
+        percent: 80
+        icon: code-bracket
+      - name: CI/CD Pipelines
+        description: ''
+        percent: 75
+        icon: cog
+      - name: Data Science Tools
+        description: ''
+        percent: 90
+        icon: chart-bar
 
 languages:
   - name: English
     percent: 100
-  - name: Spanish
-    percent: 50
+  - name: Arabic
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
+  - title: Saudi Arabia Cultural Mission (SACM) Fellowship
+    url: ''
+    date: '2022-09-01'
+    awarder: Saudi Arabia Cultural Mission
     icon: hero/academic-cap
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Awarded for excellence in graduate studies and research (2022-2024).
+  - title: AWS Certified Cloud Practitioner
+    url: 'https://aws.amazon.com/certification/'
+    date: '2023-01-01'
+    awarder: Amazon Web Services
+    icon: hero/cloud
+    summary: |
+      Certified in cloud computing fundamentals and AWS services.
+  - title: Microsoft Azure AI Fundamentals Certified
+    url: 'https://learn.microsoft.com/en-us/certifications/'
+    date: '2023-01-01'
+    awarder: Microsoft
+    icon: hero/sparkles
+    summary: |
+      Certified in AI and machine learning fundamentals on Azure platform.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Naif A. Ganadily is a Ph.D. student in Biomedical Informatics and Data Science at Arizona State University, working under the supervision of Prof. Irbaz Riaz (ASU/Mayo Clinic) and Prof. Li Liu. His research focuses on developing AI systems for oncology, with particular emphasis on large language models, generative AI, and explainable machine learning for healthcare applications.
+
+Currently serving as an AI Research Intern at Mayo Clinic, Naif is developing cutting-edge LLM and rule-based systems for hematology oncology and creating pipelines to identify adverse cardiac events in clinical notes. His work bridges the gap between advanced AI technologies and critical healthcare applications, with the goal of improving patient outcomes through intelligent automation.
+
+Naif holds an M.S. in Electrical Engineering (Machine Learning & Data Science) from the University of Washington, where he collaborated with Prof. Stan Birchfield at NVIDIA on computer vision research, and a B.S. in Electrical Engineering from the University of Business and Technology in Saudi Arabia. He is fluent in English and Arabic, and holds dual citizenship in the USA and Saudi Arabia.

@@ -13,9 +13,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    org_name: 'Arizona State University'
+    description: 'Naif A. Ganadily - Ph.D. student in Biomedical Informatics and Data Science at Arizona State University, specializing in AI for Oncology, Large Language Models, and Explainable AI.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,12 +35,12 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Your Name'
+      text: 'Naif A. Ganadily'
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Naif A. Ganadily. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

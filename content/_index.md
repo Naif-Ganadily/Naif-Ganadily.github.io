@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/Naif_Ganadily_CV.pdf
       headings:
         about: ''
         education: ''
@@ -31,14 +31,14 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🧬 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am a Ph.D. student in Biomedical Informatics and Data Science at Arizona State University, working under Prof. Irbaz Riaz (ASU/Mayo Clinic) and Prof. Li Liu. My research focuses on developing AI systems for oncology, particularly in applying large language models and generative AI to improve clinical decision-making and patient outcomes.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        Currently, I'm developing LLM-based systems for hematology oncology at Mayo Clinic and creating pipelines to identify major adverse cardiac events (MACE) in clinical notes. I'm passionate about bridging the gap between cutting-edge AI technologies and critical healthcare applications through explainable and privacy-preserving machine learning.
 
-        Please reach out to collaborate 😃
+        Please reach out to collaborate! 🚀
     design:
       columns: '1'
   - block: collection
