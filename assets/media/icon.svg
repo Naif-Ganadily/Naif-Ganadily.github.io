@@ -4,65 +4,56 @@
       <stop offset="0%" style="stop-color:#4F46E5;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#EC4899;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
-    </linearGradient>
   </defs>
   
-  <!-- Background circle -->
-  <circle cx="256" cy="256" r="240" fill="url(#grad1)" opacity="0.1"/>
+  <!-- Rounded square background -->
+  <rect x="32" y="32" width="448" height="448" rx="80" fill="url(#grad1)"/>
   
-  <!-- DNA Double Helix Structure -->
-  <!-- Left strand -->
-  <path d="M 180 100 Q 150 150 180 200 T 180 300 T 180 400" 
-        stroke="url(#grad1)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Circuit Brain Design - Left hemisphere -->
+  <path d="M 180 180 Q 150 220 160 260 Q 170 300 180 340" 
+        stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
   
-  <!-- Right strand -->
-  <path d="M 332 100 Q 362 150 332 200 T 332 300 T 332 400" 
-        stroke="url(#grad1)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- Circuit Brain Design - Right hemisphere -->
+  <path d="M 332 180 Q 362 220 352 260 Q 342 300 332 340" 
+        stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
   
-  <!-- DNA Base pairs (connecting bars) -->
-  <line x1="180" y1="120" x2="332" y2="120" stroke="url(#grad2)" stroke-width="6" opacity="0.7"/>
-  <line x1="195" y1="165" x2="317" y2="165" stroke="url(#grad2)" stroke-width="6" opacity="0.7"/>
-  <line x1="180" y1="210" x2="332" y2="210" stroke="url(#grad2)" stroke-width="6" opacity="0.7"/>
-  <line x1="195" y1="255" x2="317" y2="255" stroke="url(#grad2)" stroke-width="6" opacity="0.7"/>
-  <line x1="180" y1="300" x2="332" y2="300" stroke="url(#grad2)" stroke-width="6" opacity="0.7"/>
-  <line x1="195" y1="345" x2="317" y2="345" stroke="url(#grad2)" stroke-width="6" opacity="0.7"/>
-  <line x1="180" y1="390" x2="332" y2="390" stroke="url(#grad2)" stroke-width="6" opacity="0.7"/>
+  <!-- Top connecting arch -->
+  <path d="M 180 180 Q 256 140 332 180" 
+        stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
   
-  <!-- Neural Network Nodes (AI representation) overlaid on DNA -->
-  <!-- Top layer -->
-  <circle cx="256" cy="100" r="18" fill="#4F46E5" stroke="white" stroke-width="4"/>
+  <!-- Central processing unit symbol -->
+  <rect x="226" y="226" width="60" height="60" rx="8" fill="white" opacity="0.95"/>
+  <rect x="236" y="236" width="40" height="40" rx="4" fill="#4F46E5"/>
   
-  <!-- Middle layer nodes -->
-  <circle cx="200" cy="200" r="16" fill="#8B5CF6" stroke="white" stroke-width="3"/>
-  <circle cx="256" cy="220" r="16" fill="#8B5CF6" stroke="white" stroke-width="3"/>
-  <circle cx="312" cy="200" r="16" fill="#8B5CF6" stroke="white" stroke-width="3"/>
+  <!-- Circuit connections - Input nodes -->
+  <circle cx="140" cy="200" r="12" fill="white"/>
+  <circle cx="140" cy="256" r="12" fill="white"/>
+  <circle cx="140" cy="312" r="12" fill="white"/>
   
-  <!-- Lower layer nodes -->
-  <circle cx="220" cy="300" r="16" fill="#EC4899" stroke="white" stroke-width="3"/>
-  <circle cx="292" cy="300" r="16" fill="#EC4899" stroke="white" stroke-width="3"/>
+  <!-- Circuit connections - Output nodes -->
+  <circle cx="372" cy="200" r="12" fill="white"/>
+  <circle cx="372" cy="256" r="12" fill="white"/>
+  <circle cx="372" cy="312" r="12" fill="white"/>
   
-  <!-- Bottom layer -->
-  <circle cx="256" cy="400" r="18" fill="#06B6D4" stroke="white" stroke-width="4"/>
+  <!-- Connection lines to CPU -->
+  <line x1="152" y1="200" x2="226" y2="240" stroke="white" stroke-width="3" opacity="0.8"/>
+  <line x1="152" y1="256" x2="226" y2="256" stroke="white" stroke-width="3" opacity="0.8"/>
+  <line x1="152" y1="312" x2="226" y2="272" stroke="white" stroke-width="3" opacity="0.8"/>
   
-  <!-- Neural connections (subtle) -->
-  <line x1="256" y1="100" x2="200" y2="200" stroke="#4F46E5" stroke-width="2" opacity="0.3"/>
-  <line x1="256" y1="100" x2="256" y2="220" stroke="#4F46E5" stroke-width="2" opacity="0.3"/>
-  <line x1="256" y1="100" x2="312" y2="200" stroke="#4F46E5" stroke-width="2" opacity="0.3"/>
+  <line x1="286" y1="240" x2="360" y2="200" stroke="white" stroke-width="3" opacity="0.8"/>
+  <line x1="286" y1="256" x2="360" y2="256" stroke="white" stroke-width="3" opacity="0.8"/>
+  <line x1="286" y1="272" x2="360" y2="312" stroke="white" stroke-width="3" opacity="0.8"/>
   
-  <line x1="200" y1="200" x2="220" y2="300" stroke="#8B5CF6" stroke-width="2" opacity="0.3"/>
-  <line x1="256" y1="220" x2="220" y2="300" stroke="#8B5CF6" stroke-width="2" opacity="0.3"/>
-  <line x1="256" y1="220" x2="292" y2="300" stroke="#8B5CF6" stroke-width="2" opacity="0.3"/>
-  <line x1="312" y1="200" x2="292" y2="300" stroke="#8B5CF6" stroke-width="2" opacity="0.3"/>
+  <!-- Medical cross symbol in center -->
+  <line x1="256" y1="246" x2="256" y2="266" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <line x1="246" y1="256" x2="266" y2="256" stroke="white" stroke-width="4" stroke-linecap="round"/>
   
-  <line x1="220" y1="300" x2="256" y2="400" stroke="#EC4899" stroke-width="2" opacity="0.3"/>
-  <line x1="292" y1="300" x2="256" y2="400" stroke="#EC4899" stroke-width="2" opacity="0.3"/>
+  <!-- Data flow indicators (small dots) -->
+  <circle cx="190" cy="220" r="4" fill="white" opacity="0.7"/>
+  <circle cx="200" cy="256" r="4" fill="white" opacity="0.7"/>
+  <circle cx="190" cy="292" r="4" fill="white" opacity="0.7"/>
   
-  <!-- DNA molecule highlights -->
-  <circle cx="180" cy="120" r="8" fill="#4F46E5"/>
-  <circle cx="332" cy="120" r="8" fill="#06B6D4"/>
-  <circle cx="180" cy="300" r="8" fill="#EC4899"/>
-  <circle cx="332" cy="300" r="8" fill="#8B5CF6"/>
+  <circle cx="322" cy="220" r="4" fill="white" opacity="0.7"/>
+  <circle cx="312" cy="256" r="4" fill="white" opacity="0.7"/>
+  <circle cx="322" cy="292" r="4" fill="white" opacity="0.7"/>
 </svg>

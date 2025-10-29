@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="630" fill="url(#bg4)"/>
+  
+  <!-- Camera/Eye icon -->
+  <ellipse cx="600" cy="280" rx="140" ry="100" fill="white" opacity="0.3"/>
+  <circle cx="600" cy="280" r="60" fill="white" opacity="0.9"/>
+  <circle cx="600" cy="280" r="35" fill="#D97706"/>
+  <circle cx="610" cy="270" r="12" fill="white"/>
+  
+  <!-- 3D Cube wireframe -->
+  <path d="M 400 450 L 500 400 L 600 450 L 500 500 Z" stroke="white" stroke-width="4" fill="none"/>
+  <path d="M 500 400 L 500 300 L 600 350 L 600 450 Z" stroke="white" stroke-width="4" fill="white" opacity="0.2"/>
+  <path d="M 600 350 L 700 400 L 700 500 L 600 450 Z" stroke="white" stroke-width="4" fill="white" opacity="0.3"/>
+  <path d="M 500 300 L 600 350 L 700 400 L 600 450 Z" stroke="white" stroke-width="4" fill="none"/>
+  
+  <!-- Synthetic data grid -->
+  <rect x="250" y="200" width="50" height="50" rx="4" fill="white" opacity="0.6"/>
+  <rect x="320" y="200" width="50" height="50" rx="4" fill="white" opacity="0.5"/>
+  
+  <rect x="830" y="200" width="50" height="50" rx="4" fill="white" opacity="0.6"/>
+  <rect x="900" y="200" width="50" height="50" rx="4" fill="white" opacity="0.5"/>
+  
+  <!-- Title -->
+  <text x="600" y="80" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="white" text-anchor="middle">Synthetic Dataset Generation</text>
+  <text x="600" y="130" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle" opacity="0.9">Computer Vision with NVIDIA</text>
+</svg>
