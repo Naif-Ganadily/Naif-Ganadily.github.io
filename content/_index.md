@@ -6,7 +6,7 @@ type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
+  spacing: '4rem'
 
 sections:
   - block: resume-biography-3
@@ -19,58 +19,32 @@ sections:
         text: Download CV
         url: uploads/Naif_Ganadily_CV.pdf
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: 'About Me'
+        education: 'Education'
+        interests: 'Interests'
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
       # Avatar customization
       avatar:
-        size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '🧬 My Research'
-      subtitle: ''
-      text: |-
-        I am a Ph.D. student in **Biomedical Informatics and Data Science** at Arizona State University, working under **Prof. Irbaz Riaz** (ASU/Mayo Clinic) and **Prof. Li Liu**. My research focuses on developing **AI systems for oncology**, particularly in applying large language models and generative AI to improve clinical decision-making and patient outcomes.
-
-        Currently at **Mayo Clinic**, I'm developing:
-        - **LLM + rule-based systems** for hematology oncology clinical decision support
-        - **Automated pipelines** to identify major adverse cardiac events (MACE) in clinical notes
-        - **Explainable AI** approaches for healthcare applications
-
-        I'm passionate about bridging the gap between cutting-edge AI technologies and critical healthcare applications through explainable and privacy-preserving machine learning. I also write about AI research on [Medium](https://medium.com/@ganadilynaif).
-
-        **Please reach out to collaborate!** 🚀
-    design:
-      columns: '1'
+      spacing:
+        padding: ['50px', '0', '50px', '0']
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Publications
       filters:
         folders:
           - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
+        featured_only: false
     design:
       view: citation
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Talks
       filters:
         folders:
           - events
@@ -79,14 +53,11 @@ sections:
   - block: collection
     id: news
     content:
-      title: Blog & Writing
+      title: News
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
+      count: 3
       filters:
         author: ''
         category: ''
@@ -95,16 +66,26 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ''
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+  - block: resume-awards
+    content:
+      title: Awards
+      username: admin
+    design:
+      show_button: false
+  - block: collection
+    id: projects
+    content:
+      title: Projects
+      filters:
+        folders:
+          - projects
+    design:
+      view: article-grid
+      columns: 2
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
